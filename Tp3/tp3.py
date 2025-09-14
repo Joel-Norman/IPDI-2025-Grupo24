@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 from PIL import Image, ImageTk
 import numpy as np
-import my_functions as mf  # librería con rgb2yiq / yiq2rgb
+import functions as mf 
 
 class ImageApp:
     def __init__(self, root):
